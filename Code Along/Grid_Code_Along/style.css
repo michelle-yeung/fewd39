@@ -1,0 +1,14 @@
+.col-6{
+  border: purple dotted 1px;
+  width: 50%;
+  height: 100px;
+  float:left;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.col-4{
+  border: pink solid 2px;
+  width: 33.33%;
+  height: 100px;
+  float:left;
+  box-sizing: border-box;
