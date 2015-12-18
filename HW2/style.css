@@ -1,0 +1,70 @@
+body{
+  font-family:Helvetica,sans-serif;
+  font-weight:lighter;
+}
+h1{
+  color:#E27676;
+  font-size: 40px;
+  width:66.66%;
+  margin-right:10px;
+  display:inline;
+}
+h5{
+  color:#CCCCCC;
+  font-size: 20px;
+  width:33.33%;
+  display:inline;
+}
+h4{
+  color:grey;
+}
+h3{
+  color:#CCCCCC;
+  font-size:30px;
+  margin-top:30px;
+}
+a{
+  color:#E27676;
+}
+.Continue{
+  color:#E27676;
+  font-weight:bold;
+  float:right;
+  box-sizing: border-box;
+  margin-bottom:20px;
+  display:block;
+}
+.Menu-Bar{
+  width: 16.666%;
+  background-color: black;
+  box-sizing: border-box;
+  height:50px;
+  color: white;
+  border:white 1px solid;
+  float:left;
+  display:inline;
+  padding:15px 15px 15px 15px;
+  text-align: center;
+}
+.Blog{
+  width:67%;
+  box-sizing:content-box;
+  float:left;
+  margin-bottom:20px;
+  margin-top:40px;
+}
+.Sidebar{
+  width:29%;
+  box-sizing:content-box;
+  float:right;
+  margin-top:40px;
+}
+.Divider{
+  border: 1px #CCCCCC solid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Bottom-Menu{
+  color:#CCCCCC;
+  margin-top:20px;
+}
