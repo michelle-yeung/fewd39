@@ -1,0 +1,11 @@
+body{
+  background-color: #ffcc99;
+  font-family:helvetica,san-serif;
+}
+header nav ul{
+  display:inline;
+  list-style:none;
+}
+header nav li{
+  text-decoration:none;
+}
