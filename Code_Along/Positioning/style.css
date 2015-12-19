@@ -1,14 +1,109 @@
 div{
   border:1px solid black;
-  float:right;
 }
-#box1{
+#Example #box1{
   background-color:green;
   height:200px;
   width:200px;
+  margin:0 auto;
 }
-#box2{
+#Example #box2{
   background-color:yellow;
   height:100px;
   width: 100px;
+  margin:50px;
+}
+#stacker3{
+  background-color:purple;
+  height:100px;
+  width:200px;
+}
+#stacker4{
+  background-color:purple;
+  height:100px;
+  width:200px;
+  margin-left: 100px;
+}
+#stacker5{
+    background-color:purple;
+    height:100px;
+    width:200px;
+    margin-left: 200px;
+}
+#mirror6{
+  background-color:navy;
+  height:500px;
+  width:500px;
+  margin-right:200px;
+  margin-left: 200px;
+  position:relative;
+}
+#mirror7{
+  background-color:#2B86D6;
+  height:400px;
+  width:400px;
+  margin-right:250px;
+  margin-left: 250px;
+  margin-top:-450px;
+  position: absolute;
+}
+#mirror8{
+  background-color:#4EBBE6;
+  height:200px;
+  width:200px;
+  margin-right:350px;
+  margin-left: 350px;
+  margin-top:-350px;
+  position:absolute;
+}
+#mirror9{
+  background-color:#A2DCF2;
+  height:100px;
+  width:100px;
+  margin-right:400px;
+  margin-top:-300px;
+  margin-left: 400px;
+  position:absolute;
+}
+#skinny10{
+  background-color:pink;
+  height:50px;
+  width:800px;
+  position:relative;
+}
+#skinny11{
+  background color:purple;
+  height:350px;
+  width:350px;
+  position:absolute;
+  margin-left:400px;
+  margin-right:400px;
+  padding-left:300px;
+  padding-right:300px;
+}
+#skinny12{
+  background color:pink;
+  height:50px;
+  width:800px;
+  position:relative;
+}
+#absolute13{
+  background color:pink;
+  height:200px
+  width:800px;
+  position:relative;
+}
+#absolute14{
+  background-color:purple;
+  height:50px;
+  width:50px;
+  float:left;
+  position:absolute
+}
+#absolute15{
+  background-color:purple;
+  height:50px;
+  width:50px;
+  float:right;
+  position:absolute
 }

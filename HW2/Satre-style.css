@@ -37,6 +37,13 @@ h5{
   color: white;
   text-decoration:none;
 }
+#Top-Nav a:hover{
+  font-size:20px;
+  text-decoration:none;
+  color:#E27676;
+  padding-bottom:15px;
+  padding-top:5px;
+}
 #Content{
   width:60%;
   box-sizing:content-box;
