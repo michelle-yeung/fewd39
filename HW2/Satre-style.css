@@ -1,0 +1,101 @@
+body{
+  font-family: 'HelveticaNeue-Thin', 'Helvetica Neue Thin', 'Helvetica Neue', sans-serif;
+}
+h1{
+  color:#E27676;
+  font-size: 60px;
+  width:66.66%;
+  margin-right:10px;
+  display:inline;
+  font-weight:lighter;
+  margin-left:10px;
+}
+h5{
+  color:#CCCCCC;
+  font-size: 20px;
+  width:33.33%;
+  display:inline;
+  font-weight:lighter;
+}
+#Top-Nav ul{
+  padding-left: 0;
+}
+#Top-Nav li{
+  width: 16.666%;
+  background-color: black;
+  box-sizing: border-box;
+  height:50px;
+  color: white;
+  border:white 1px solid;
+  float:left;
+  display:inline;
+  padding:15px 15px 15px 15px;
+  text-align: center;
+  list-style:none;
+}
+#Top-Nav a{
+  color: white;
+  text-decoration:none;
+}
+#Content{
+  width:60%;
+  box-sizing:content-box;
+  float:left;
+  margin-bottom:20px;
+  margin-top:40px;
+  padding-left:20px;
+}
+#Content a{
+  color:#E27676;
+}
+#Content h3{
+  color:#CCCCCC;
+  font-size:30px;
+  font-weight:lighter
+}
+#Content h2{
+  font-size:40px;
+  font-weight:lighter;
+}
+#Sidebar{
+  width:33.333%;
+  box-sizing:content-box;
+  float:right;
+  margin-top:40px;
+  margin-right:20px;
+  color:grey;
+}
+#Sidebar a{
+    color:#E27676;
+}
+#Sidebar h4{
+  font-weight:bold;
+  font-size:20px;
+  color:grey;
+}
+.Continue{
+  color:#E27676;
+  font-weight:bold;
+  float:right;
+  box-sizing: border-box;
+  margin-bottom:20px;
+  display:block;
+}
+.Continue a{
+  padding:20px;
+  margin-bottom:30px;
+  text-decoration:none;
+}
+footer{
+  color:#CCCCCC;
+  margin-top:20px;
+  padding-bottom:20px;
+}
+footer a{
+  text-decoration:none;
+}
+.Divider{
+  border: 1px #CCCCCC solid;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
