@@ -1,3 +1,5 @@
+body { padding-top: 70px; }
+
 .row {
   display: block;
   margin-left: auto;
@@ -6,24 +8,23 @@
 .container-fluid{
   margin-left:60px;
 }
-.col-md-4, .col-md-9, .col-md-8{
+/*.col-md-4, .col-md-9, .col-md-8{
     padding-left:70px;
     padding-top:80px;
-}
-.col-md-3{
+}*/
+/*.col-md-3{
     padding-right:70px;
     padding-top:80px;
 }
 .col-sm-9{
-  margin-top:-100px;
+  margin-top:-120px;
   padding-left:70px;
-}
+}*/
 .jumbotron{
   display: block;
   padding-left:70px;
 }
-.divider{
-  border: 1px rgba(1,1,1,0.5) solid;
+.page-header{
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left:75px;
