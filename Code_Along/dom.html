@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 2</title>
+    <style media="screen">
+      .green{
+        color: green;
+      }
+
+      #fontsize100{
+        font-size:100px;
+      }
+    </style>
+  </head>
+  <body>
+  <h1>Hi there!</h1>
+  <ul>
+    <li class="green">list item 1</li>
+    <img src="">
+  </ul>
+  </body>
+  <script>
+//created a new element ("li"), child to the ul//
+    var listItem = document.createElement("li");
+    listItem.textContent = "My first list item is now green";
+//list.Item.setAttribute("class","green");//
+    listItem.className = "green";
+
+//setting an id attribute to the new element//
+    listItem.setAttribute("id","fontsize100");
+
+//Creating a new element (img) and setting attributes//
+    var image = document.createElement("img");
+    image.setAttribute("src","https://www.petfinder.com/wp-content/uploads/2012/11/dog-how-to-select-your-new-best-friend-thinkstock99062463.jpg")
+
+//grabbed or selected the parent "ul"//
+    var ul = document.querySelector("ul");
+
+//putting the child element underneath the parent element//
+    ul.appendChild(listItem);
+    ul.appendChild(image);
+
+  </script>
+</html>
+
+<!-- https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQxyHiMwyTSC811xZylxjt1hLPDpo7fO3Sc5lR-bxacOHpOayaxoQ -->

@@ -1,0 +1,24 @@
+Selecting for things on document object:
+  document.querySelector("");
+
+Create new elements on a document object:
+  document.createElement("");
+
+On the Element object, we can set the textContent:
+e.g. name of an Element object is "listItem"
+  listItem.textContent = "set it to something";
+
+e.g. name of an Element object is "image"
+Now, set the Attribute src = "https..."
+  image.setAttribute("src", "https....");
+
+Now set the attribute of listItem to class = "green"
+  listItem.className = "green";
+  or
+  listItem.setAttribute("class","green");
+
+To append a child element to a parent element:
+1) Select for the parent element:
+      var ul = document.querySelector("ul")
+2) Append the child element to the parent using:
+      ul.appendChild(listItem);
