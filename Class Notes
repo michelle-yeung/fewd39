@@ -1,0 +1,25 @@
+api -- url -- returns results
+results are in JSON
+
+results["Search"] ==== array
+array [0] ==
+
+var results = movieApiJSON
+(results)
+
+results["Search"][1].Type = "movie"
+
+for (var i =0; i<array.length;i++){
+
+}
+
+array forEach()
+
+whateverArrayYouHave.forEach(callBackFunction)
+results["Search"].forEach(printAllDetails) <-- this is an array
+
+function printAllDetails(){
+
+}
+
+/*for each of the items in your array*/

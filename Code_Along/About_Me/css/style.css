@@ -88,7 +88,7 @@ h2 {
 
 .headshot img {
 	width:70%;
-	border-radius:100%;
+	border-radius:50%;
 	display:block;
 	border:#CCC 4px solid;
 	margin-left:auto;
