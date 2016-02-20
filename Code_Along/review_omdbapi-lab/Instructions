@@ -1,0 +1,66 @@
+What happens after I submit on the form?
+a) On the form, on the submit, we add an eventListener == .when this even happens, we prevent the default action
+      var form = document.querySelector("#movie-search-form")
+      form.addEventListener("submit",formSubmitted)
+
+      function formSubmitted(event) {
+        event.preventDefault();
+        var query = document.querSelector("#query");
+        var url = http:"//www.omdbapi.com/?s=" + query.value;
+
+        $.get(url,movieResults);
+        }
+
+        function movieResults(results){
+          var movieArray = results.Search;
+          //for each item in the array,you will place that ONE item into the displayMovie function
+          movieArray.forEach(displayMovie);
+        }
+
+
+b) In order to Search the omdb database, we need to access it with a url
+c) Create the URL by concantenating the api URL + whatever is value in the input field
+d) Makes a request to omdb for info (ajac call and JSON results are returned)
+
+Review of callBack function that you have seen
+a) $.get(url, callBackfunction)
+.e.g. $.get(url,movieResults)
+Using $.get jquery function, you "get" the data from the URL and place the data into the next function to run)
+
+b) form.addEventListener(formSubmitted)
+"Add an event listener" on the form, on "submit" of this form, do the next function ("formSubmitted")
+
+c) On any array, do something
+array.forEach(dosomething)
+For each item in the array, take one of those items and do something
+
+displayEachMovie
+a) Create 4 elements (li, div div, a)
+      function displayMovie(movie){
+        var item = document.createElement("li");
+        var movie = document.createElement("div");
+        var link = document.createElement("a");
+        var release = document.createElement("div");
+      }
+b) set Attributes to all of those elements (class="movie",href=url)
+set text Content to show TITLE and RELEASE NOTE on my DOM
+      var name = movie["Title"];
+      movie.textContent = name;
+
+      var year = movie["Year"]
+      release.textContent = year;
+c) set Attributes such classes, href, target on my newly created elements
+      item.setAttribute("class","movie");
+      movie.setAttribute("class", "movie-title");
+      release.setAttribute("class","movie-release-date");
+
+      var url = "http://www.imdbcom/title/" + movie[imdbID]
+      link.setAttribute("href",urlIMDB);
+      linke.setAttribute("target","_blank");
+d) append it to the appropriate parent for it to show up on the DOM
+      item.appendChild(movie);
+      item.appendChild(release);
+      movie.appendChild(link);
+
+      document.querySelector("#movies");
+      ul.appendChild(item);
