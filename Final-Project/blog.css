@@ -96,7 +96,6 @@ ul, li {
 .factory-details-header{
     min-height: 350px;
     max-height: 450px;
-    background-size: 80%;
 }
 .factory-details-header img{
     width:100%;
@@ -137,8 +136,10 @@ ul, li {
   padding-bottom: 30px;
   padding-top:30px;
   padding-right:175px;
+  margin-right:300px;
   float: right;
   width: 600px;
+  height:800px;
   margin: 0;
 }
 .content-body h2{
@@ -153,12 +154,14 @@ ul, li {
   float: right;
   width: 600px;
 }
-.div .content-body {
-  padding-right:375px;
-  display:block;
-  /*width:1000px;
-  margin-right:50px;*/
-}
 .sidebar #city{
   font-size:35px;
+}
+.txt-center{
+  text-align:center;
+  position:fixed;
+  bottom:5px;
+  padding-left:500px;
+
+
 }
